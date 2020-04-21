@@ -1,0 +1,99 @@
+.top
+{
+	margin: 5px;
+	padding: 10px;
+	top: 35%;
+	right: 42%;
+	transform: translate(0%,-36%);
+	position: absolute;
+}
+.image img
+{
+	height: 190px;
+	width: 170px;
+	margin-left: 36px;
+	border-radius: 100%;
+}
+.image h1
+{
+	font-weight: 700;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+.social-link
+{
+	margin-top: 20px;
+	margin-left: -16px;
+}
+.codeforces
+{
+	width: 30px;
+	height: 30px;
+}
+ul li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 25px;
+}
+ul li a
+{
+	font-size: 25px;
+	color:black;
+}
+.footer
+{
+	text-align: center;
+	background-color: rgba(192, 169, 169, 0.39);
+	position: absolute;
+	top: 95%;
+	height: 40px;
+	width: 100%;
+	padding: 8px;
+	opacity: 0.6;
+}
+
+/* media query */
+@media (max-width:1600px)
+{
+	.top
+	{
+		top: 35%;
+		right: 40%;
+		transform: translate(0%,-40%);
+		position: absolute;
+	}
+}
+
+@media (max-width:1200px)
+{
+	.top
+	{
+		top: 36%;
+		right: 37%;
+		transform: translate(0%,-37%);
+		position: absolute;
+	}
+}
+
+@media(max-width:800px)
+{
+	.top
+	{
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		right: 5%;
+		left: 5%;
+		position: absolute;
+	}
+	.top p,.top .social-link,.pdf
+	{
+		top: 90px;
+		position: relative;
+	}
+	.image
+	{
+		margin-left: 15px;
+		float: right;
+	}
+}
