@@ -4,7 +4,7 @@
 	padding: 10px;
 	top: 35%;
 	right: 42%;
-	transform: translate(0%,-36%);
+	transform: translate(-3%,-36%);
 	position: absolute;
 }
 .image img
@@ -28,7 +28,7 @@
 .college:hover,li a:hover,li a
 {
 	text-decoration: none;
-	color: rgb(51,103,214);
+	color: rgba(51,103,214,0.7);
 }
 .codeforces
 {
@@ -61,7 +61,6 @@ ul li a
 
 .pdf
 {
-	
 	margin:15px;
 	margin-top: -7px;
 	padding: 3px;
@@ -85,58 +84,66 @@ ul li a
 {
 	.top
 	{
+		background-color: red;
 		top: 35%;
 		right: 40%;
-		transform: translate(0%,-40%);
+		transform: translate(2%,-40%);
 		position: absolute;
 	}
 }
 
-@media (max-width:1200px)
+/*1200
+1024
+768
+640*/
+@media(max-width:1200px)
 {
 	.top
 	{
-		top: 36%;
-		right: 37%;
-		transform: translate(0%,-37%);
-		position: absolute;
-	}
-}
-
-@media(max-width:800px)
-{
-	.top
-	{
-		justify-content: center;
-		align-content: center;
+		background-color: yellow;
 		text-align: center;
-		right: 5%;
-		left: 5%;
+		top: 31%;
+		right: 34%;
+		padding: 10px;
+		transform: translate(-3%,-35%);
 		position: absolute;
 	}
-	li a
+}
+
+@media(max-width: 992px)
+{
+	.top
 	{
-		margin-right: -5px;
+		background-color: green;
+		text-align: center;
+		top: 31%;
+		right: 30%;
+		padding: 10px;
+		transform: translate(-4%,-35%);
+		position: absolute;
 	}
-	.social-link
+}
+
+@media(max-width: 768px)
+{
+	.top
 	{
-		margin-top: 0px;
+		background-color: blue;
+		top: 31%;
+		right: 26%;
+		transform: translate(-4%,-35%);
+		position: absolute;
 	}
-	.pdf
+}
+
+@media(max-width: 576px)
+{
+	.top
 	{
-		margin-top:0px;
-		width: 50%;
-		margin-left: -4px;
-		margin-top: -5px;
-	}
-	.top p,.top .social-link,.pdf
-	{
-		top: 90px;
-		position: relative;
-	}
-	.image
-	{
-		margin-left: 15px;
-		float: right;
+		background-color: red;
+		top: 31%;
+		right: 18%;
+		transform: translate(-4%,-35%);
+		position: fixed;
 	}
 }
