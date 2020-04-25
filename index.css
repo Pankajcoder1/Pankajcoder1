@@ -93,6 +93,10 @@ ul li a
 		transform: translate(2%,-40%);
 		position: absolute;
 	}
+	ul li
+	{
+		margin-right: 15px;
+	}
 }
 
 /*1200
@@ -141,8 +145,41 @@ ul li a
 	.top
 	{
 		top: 31%;
-		right: 18%;
+		right: 10%;
+		left: 16%;
 		transform: translate(-4%,-35%);
 		position: fixed;
+	}
+	.image img
+	{
+		position: relative;
+		left: 2%;
+	}
+	.image h1
+	{
+		font-size: 25px;
+	}
+	p
+	{
+		font-size: 19px;
+	}
+	ul li
+	{
+		margin-right: 0;
+		margin-right: 10px;
+	}
+	ul li a
+	{
+		font-size: 20px;
+	}
+	.codeforces
+	{
+		width: 25px;
+		height: 25px;
+	}
+	.codechef
+	{
+		width: 26px;
+		height: 26px;
 	}
 }
