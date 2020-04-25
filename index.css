@@ -84,7 +84,6 @@ ul li a
 {
 	.top
 	{
-		background-color: red;
 		top: 35%;
 		right: 40%;
 		transform: translate(2%,-40%);
@@ -100,7 +99,6 @@ ul li a
 {
 	.top
 	{
-		background-color: yellow;
 		text-align: center;
 		top: 31%;
 		right: 34%;
@@ -114,7 +112,6 @@ ul li a
 {
 	.top
 	{
-		background-color: green;
 		text-align: center;
 		top: 31%;
 		right: 30%;
@@ -128,7 +125,6 @@ ul li a
 {
 	.top
 	{
-		background-color: blue;
 		top: 31%;
 		right: 26%;
 		transform: translate(-4%,-35%);
@@ -140,7 +136,6 @@ ul li a
 {
 	.top
 	{
-		background-color: red;
 		top: 31%;
 		right: 18%;
 		transform: translate(-4%,-35%);
