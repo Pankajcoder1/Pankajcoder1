@@ -34,13 +34,17 @@
 {
 	width: 30px;
 	height: 30px;
-
+}
+.codechef
+{
+	width: 35px;
+	height: 35px;
 }
 ul li
 {
 	list-style: none;
 	display: inline;
-	margin-right: 25px;
+	margin-right: 15px;
 }
 ul li a
 {
