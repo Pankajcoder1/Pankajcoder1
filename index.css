@@ -1,3 +1,9 @@
+body
+{
+	min-height: 100vh;
+	overflow-y: hidden;
+}
+
 .top
 {
 	margin: 5px;
@@ -18,11 +24,6 @@
 {
 	font-weight: 700;
 	font-family: 'Baloo Paaji 2', cursive;
-}
-.social-link
-{
-	margin-top: 20px;
-	margin-left: -16px;
 }
 
 .college:hover,li a:hover,li a
@@ -45,6 +46,10 @@ ul li
 	list-style: none;
 	display: inline;
 	margin-right: 15px;
+}
+.list-group
+{
+	margin-left: 10px;
 }
 ul li a
 {
