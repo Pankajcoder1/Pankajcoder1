@@ -18,6 +18,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet">
 		<!-- icon -->
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<!-- link for  button-->
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<title>
 			Pankaj Kumar
 		</title>
@@ -26,6 +29,71 @@
 	</head>
 <body>
 
+	<!-- link  -->
+	<div class="toggle_">          
+    <div class="dropdown">
+      <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Other link
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-submenu">
+          <a class="test" tabindex="-1" href="#">Professional <span class="caret"></span></a>
+          <ul class="dropdown-menu list-group professional">
+            <li class="list-group-item">
+              <a href="https://www.hackerearth.com/@pankaj1289" tabindex="-1">Hackerearth</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://www.hackerrank.com/coder_panku" tabindex="-1">Hackerrank</a>
+            </li>
+            
+            <li class="list-group-item">
+              <a href="https://atcoder.jp/users/Pankajcoder1" tabindex="-1">Atcoder</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://www.stopstalk.com/user/profile/Pankajcoder1" tabindex="-1">StopStalk</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://stackoverflow.com/users/12746449/pankaj-kumar" tabindex="-1">Stackover Flow</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://www.spoj.com/myaccount/" tabindex="-1">Spoj</a>
+            </li>
+            <li class="list-group-item">
+              <a href="https://leetcode.com/pankajkumarmath1/" tabindex="-1">Leetcode</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://carbon.now.sh/account" tabindex="-1">Carbon</a>
+            </li>
+          </ul>
+        </li>
+
+        <!--  -->
+        <li class="dropdown-submenu">
+          <a href="#" class="test" tabindex="-1">Social<span class="caret"></span></a>
+          <ul class="dropdown-menu list-group">
+            <li class="list-group-item">
+              <a href="https://www.facebook.com/profile.php?id=100022375813493" tabindex="-1">Facebook</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://twitter.com/PankajK66627177" tabindex="-1">Twitter</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="https://www.instagram.com/pankaj2430kumar/" tabindex="-1">Instagram</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+	<!-- end for link part -->
 	<!-- whole content -->
 	<div class="top">
 		<div class="image">
@@ -77,5 +145,16 @@
 			<p>Pankaj Kumar&copy;2020</p>
 		</div>
 	<!-- end of footer section -->
+
+	<script>
+  $(document).ready(function(){
+    $('.dropdown-submenu a.test').on("click", function(e){
+      $(this).next('ul').toggle();
+      e.stopPropagation();
+      e.preventDefault();
+    });
+  });
+</script>
+
 </body>
 </html>
