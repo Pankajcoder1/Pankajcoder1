@@ -1,9 +1,11 @@
 <h1 align="center">Hi 👋, I'm Pankaj Kumar</h1>
-<h3 align="center">Frontend Developer | Competitive Programmer</h3>
+<h3 align="center">Frontend Developer | Competitive Programming</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pankajcoder1" alt="pankajcoder1" /> </p>
 
-- 👨‍💻 All of my projects are available at [https://pankajcoder1.github.io/](https://pankajcoder1.github.io/)
+- 🌱 I’m currently learning **Algorithms for Competitive Programming**
+
+- 👨‍💻 All of my projects are available at [https://github.com/Pankajcoder1/](https://github.com/Pankajcoder1/)
 
 - 📫 How to reach me **pankajkumarmath1@gmail.com**
 
