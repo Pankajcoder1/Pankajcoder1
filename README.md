@@ -1,6 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pankaj Kumar</h1>
 <h3 align="center">Frontend Developer | Competitive Programming</h3>
 <p align="center">3🌟 coder at Codechef| Highest rating 1368 (<span class="text-green">Pupil</span>)</p>
+<div class="text-purple">This text is purple, <a href="#" class="text-inherit">including the link</a></div>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pankajcoder1" alt="pankajcoder1" /> </p>
 
