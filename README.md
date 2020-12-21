@@ -13,7 +13,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://dev.to/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="pankajcoder1" height="30" width="40" /></a>
+<a href="https://dev.to/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="pankajcoder1" height="30" width="40" /></a>
 <a href="https://twitter.com/pankajk66627177" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="pankajk66627177" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/pankaj-kumar-795b48198/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="pankaj-kumar-795b48198/" height="30" width="40" /></a>
 <a href="https://fb.com/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="pankajcoder1" height="30" width="40" /></a>
@@ -24,6 +24,7 @@
 <a href="https://www.leetcode.com/pankajkumarmath1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="pankajkumarmath1" height="30" width="40" /></a>
 <a href="https://www.hackerearth.com/@pankaj1289" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerearth.svg" alt="@pankaj1289" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/panku_coder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/geeksforgeeks.svg" alt="panku_coder1" height="30" width="40" /></a>
+<a href="https://discord.gg/#0402" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="#0402" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
