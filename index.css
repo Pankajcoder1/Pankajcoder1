@@ -41,7 +41,7 @@ nav li a
 }
 .nav-link:hover
 {
-	font-size: 19px;
+	font-weight: 500;
 }
 .dropdown-menu li
 {
@@ -268,6 +268,15 @@ nav li a
 {
 	font-size: 28px;
 }
+tr td:nth-child(2)
+{
+	text-transform: capitalize;
+	font-size: 15px;
+}
+tr td:nth-child(1)
+{
+	font-size: 15px;
+}
 @media (max-width: 768px)
 {
 	.project-section
@@ -306,7 +315,7 @@ nav li a
 	font-size: 52px;
 	color: #7456c6;
 }
-.contact .container .row .col-md-4:hover i
+.contact .container .row :hover i
 {
 	padding-top: 20px;
 	font-size: 60px;
@@ -365,8 +374,9 @@ nav li a
 .footer div
 {
 	color: #000;
-	opacity: 0.4;
+	opacity: 0.6;
 	top: 50%;
+	font-size: 14px;
 	position: relative;
 	transform: translateY(-50%);
 }
@@ -403,6 +413,8 @@ nav li a
 	}
 }
 
+/* css used during debuging and fixing issues */
+/* css end for debuging */
 /* issue not fixed yet */
 /* for very small device max-width: 300px ; last section that is connect with me 
 is not responsive */
