@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Page test
+	</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<!-- mdl cdn link -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  	<style type="text/css">
+  		/*  to change color of icon */
+  		.material-icons.orange600
+  		{
+  			color: #FB8C00;
+  		}
+  		/* for resize icon */
+  		.material-icons.md-18
+  		{
+  			font-size: 25px;
+  		}
+  		.material-icons.red
+  		{
+  			color: red;
+  		}
+  		span
+  		{
+  			cursor: pointer;
+  		}
+  	</style>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			pankaj
+		</div>
+		<span class="material-icons orange600"  onclick="change_mode();">light_mode</span>
+		<span class="material-icons red" onclick="dark();">mode_night</span>
+		<!-- <span class="material-icons orange600">face</span> -->
+
+
+		<script type="text/javascript">
+			function change_mode()
+			{
+				 document.getElementsByClassName("container")[0].style.color="red";
+				 var head=document.getElementsByTagName("BODY")[0];
+				 head.style.color="green";
+			}
+			function dark()
+			{
+				document.getElementsByClassName("container")[0].style.color="pink";
+			}
+		</script>
+	</div>
+</body>
+</html>
