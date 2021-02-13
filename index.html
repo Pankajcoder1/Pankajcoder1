@@ -26,7 +26,7 @@
 </head>
 <body>
 	<!-- starting navbar -->
-	<nav class="navbar navbar-light" id="top">
+	<nav class="navbar navbar-light navbar-expand-sm" id="top">
 		<div class="container">
 			<!-- <h1 class="navbar-brand" style="font-size: 20px;">Pankaj Kumar</h1> -->
 			<ul class="nav">
@@ -121,13 +121,13 @@
 					<a href="Resume.pdf" class="nav-link" target="_blank">Resume</a>
 				</li>
 				<!-- dark mode system -->
-				<!-- <li class="nav-item">
+				<li class="nav-item light" onclick="change_light_mode();">
 					<a href="#" class="nav-link"><span class="material-icons">mode_night</span></a>
-				</li> -->
+				</li>
 				<!-- light mode -->
-				<!-- <li class="nav-item" style="display: none;" onclick="change_mode();">
+				<li class="nav-item dark" style="display: none;" onclick="change_dark_mode();">
 					<a href="#" class="nav-link"><span class="material-icons">light_mode</span></a>
-				</li> -->
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -172,7 +172,7 @@
 			<div class="row text-center">
 				<div class="col-sm-4">
 					<p>Strengths</p>
-					<ul>
+					<ul class="strength_list">
 						<li>
 							<p>Algorithms</p>
 						</li>
@@ -190,7 +190,7 @@
 					<p>
 						Programming
 					</p>
-					<ul>
+					<ul class="programming_list">
 						<li>
 							<p>C++(Intermediate)</p>
 						</li>
@@ -219,7 +219,7 @@
 					<p>
 						Other Tools and Framework
 					</p>
-					<ul>
+					<ul class="other_list">
 						<li>
 							<p>Git</p>
 						</li>
@@ -404,6 +404,7 @@
 		</div>
 	</section>
 
+	<!-- connect me section start -->
 	<section class="connect-me" id="connect-me">
 		<div class="container">
 			<div class="text-center">
@@ -413,13 +414,12 @@
 			</div>
 			<div class="row justify-content-center">
 				<ul class="col-4">
-					<!-- list-group list-group-horizontal -->
 					<li class="github">
 						<a href="https://github.com/Pankajcoder1" title="Github account">
 							<i class="fa fa-github"></i>
 						</a>
 					</li>
-					<li class="col-4">
+					<li class="col-4 linkedin">
 						<a href="https://www.linkedin.com/in/pankaj-kumar-795b48198/" title="linkedin account">
 							<i class="fa fa-linkedin"></i>
 						</a>
@@ -440,25 +440,12 @@
 	</footer>
 	<!-- footer section end -->
 
-	<a href="#top" id="top-button" class="top-button btn" onclick="jsfunction()">
+	<a href="#top" id="top-button" class="top-button btn" onclick="top_button()">
 		<i class="fa fa-angle-up text-center"></i>
 	</a>
 
-	<script type="text/javascript">
-		btn=document.getElementById("top-button");
-		window.onscroll=function()
-		{
-			if(document.body.scrollTop>20|| document.documentElement.scrollTop>20)
-				btn.style.display="block";
-			else
-				btn.style.display="none";
-		};
-		
-		function jsfunction()
-		{
-			document.body.scrollTop=0;
-			document.documentElement.scrollTop=0;
-		}
-	</script>
+	<!-- js files added here -->
+	<script type="text/javascript" src="js/change_mode.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
