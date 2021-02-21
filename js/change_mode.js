@@ -4,7 +4,7 @@ var full_screen=document.getElementsByTagName("body");
 function change_light_mode()
 {
 	// js for main section start
-	full_screen[0].style.backgroundColor="#141414";
+	full_screen[0].style.backgroundColor="#242526";
 	document.getElementsByClassName("dark")[0].style.display="block";
 	document.getElementsByClassName("light")[0].style.display="none";
 	document.getElementsByClassName("intro")[0].style.color="white";
@@ -35,7 +35,7 @@ function change_light_mode()
 
 	// js for contact me section start
 	var list=document.querySelectorAll(".contact div .row");
-	list[0].style.backgroundColor="#141414";
+	list[0].style.backgroundColor="#242526";
 
 	// js for contact me section end
 
