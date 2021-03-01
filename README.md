@@ -21,7 +21,7 @@
 <a href="https://fb.com/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="pankajcoder1" height="30" width="40" /></a>
 <a href="https://instagram.com/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="pankajcoder1" height="30" width="40" /></a>
 <a href="https://www.codechef.com/users/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="pankajcoder1" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/coder_panku" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="coder_panku" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/pankajcoder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="coder_panku" height="30" width="40" /></a>
 <a href="https://codeforces.com/profile/pankaj_kumar1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codeforces.svg" alt="pankaj_kumar1" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/pankajkumarmath1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="pankajkumarmath1" height="30" width="40" /></a>
 <a href="https://www.hackerearth.com/@pankaj1289" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerearth.svg" alt="@pankaj1289" height="30" width="40" /></a>
