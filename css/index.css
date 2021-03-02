@@ -1,5 +1,7 @@
 /*font for intro*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/*font for table */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 /*css start*/
 /* css to handle different media will later write */
@@ -255,9 +257,17 @@ nav li a
 {
 	font-size: 17px;
 }
+.table1 tbody
+{
+	font-family: 'Source Sans Pro', sans-serif;
+}
 .table1 thead
 {
 	font-size: 18px;
+}
+.table1 tbody tr td:nth-child(2)
+{
+	font-weight: bold;
 }
 .table1 tbody tr td a i
 {

@@ -25,6 +25,12 @@ function change_light_mode()
 
 	// js for skill section end here
 
+	// js for project section start
+	var column=document.querySelectorAll(".table1 tbody tr");
+	for(var i=0;i<column.length;i+=2)
+		column[i].style.backgroundColor="#141414";
+	
+	// js for project section end
 
 	// js for project section start
 	var list=document.querySelectorAll("tbody tr td");
@@ -73,6 +79,12 @@ function change_dark_mode()
 		list[i].style.color="black";
 	// js for skill section end here
 
+	// js for project section start
+	var column=document.querySelectorAll(".table1 tbody tr");
+	for(var i=0;i<column.length;i+=2)
+		column[i].style.backgroundColor="rgba(0,0,0,.05)";
+	
+	// js for project section end
 
 	// js for project section start
 	var list=document.querySelectorAll("tbody tr td");
