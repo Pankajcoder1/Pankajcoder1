@@ -1,0 +1,235 @@
+body
+{
+	min-height: 100vh;
+	background-color: #f0fff0;
+}
+
+.top
+{
+	margin: 5px;
+	padding: 10px;
+	top: 35%;
+	right: 42%;
+	transform: translate(-3%,-36%);
+	position: absolute;
+}
+.image img
+{
+	height: 190px;
+	width: 170px;
+	margin-left: 36px;
+	border-radius: 100%;
+}
+.image h1
+{
+	font-weight: 700;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+
+.college:hover,li a:hover,li a
+{
+	text-decoration: none;
+	color: rgba(51,103,214,0.7);
+}
+.college:hover
+{
+	text-decoration: none;
+	color: #000;
+}
+.codeforces
+{
+	width: 30px;
+	height: 30px;
+}
+.codechef
+{
+	width: 35px;
+	height: 35px;
+}
+ul li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 15px;
+}
+.list-group
+{
+	margin-left: 10px;
+}
+ul li a
+{
+	font-size: 25px;
+	color:black;
+}
+.footer
+{
+	text-align: center;
+	background-color: rgba(192, 169, 169, 0.39);
+	position: absolute;
+	top: 95%;
+	height: 40px;
+	width: 100%;
+	padding: 8px;
+	opacity: 0.6;
+}
+
+.pdf
+{
+	margin:15px;
+	margin-top: -7px;
+	padding: 3px;
+	width: 85%;
+	border: none;
+	font-weight: 900;
+	border-radius: 10px;
+}
+.pdf a
+{
+	margin-top: -7px;
+	color: rgb(51,103,214);
+	height: 42px;
+	margin-top: 0px;
+	text-overflow: none;
+	font-size: 15px;
+	font-weight: 800;
+}
+/* media query */
+@media (max-width:1600px)
+{
+	.top
+	{
+		top: 35%;
+		right: 40%;
+		transform: translate(2%,-40%);
+		position: absolute;
+	}
+	ul li
+	{
+		margin-right: 15px;
+	}
+}
+
+/*1200
+1024
+768
+640*/
+@media(max-width:1200px)
+{
+	.top
+	{
+		text-align: center;
+		top: 31%;
+		right: 34%;
+		padding: 10px;
+		transform: translate(-3%,-35%);
+		position: absolute;
+	}
+}
+
+@media(max-width: 992px)
+{
+	.top
+	{
+		text-align: center;
+		top: 31%;
+		right: 30%;
+		padding: 10px;
+		transform: translate(-4%,-35%);
+		position: absolute;
+	}
+}
+
+@media(max-width: 768px)
+{
+	.top
+	{
+		top: 31%;
+		right: 26%;
+		transform: translate(-4%,-35%);
+		position: absolute;
+	}
+}
+
+@media(max-width: 576px)
+{
+	.top
+	{
+		top: 31%;
+		right: 10%;
+		left: 16%;
+		transform: translate(-4%,-35%);
+		position: fixed;
+	}
+	.image img
+	{
+		position: relative;
+		left: 2%;
+	}
+	.image h1
+	{
+		font-size: 25px;
+	}
+	p
+	{
+		font-size: 19px;
+	}
+	ul li
+	{
+		margin-right: 0;
+		margin-right: 10px;
+	}
+	ul li a
+	{
+		font-size: 20px;
+	}
+	.codeforces
+	{
+		width: 25px;
+		height: 25px;
+	}
+	.codechef
+	{
+		width: 26px;
+		height: 26px;
+	}
+}
+/*css*/
+.list-group-item
+{
+  border: none;
+}
+.toggle_
+{
+	float: right;
+	margin-right: 110px;
+}
+.toggle_ ul li a
+{
+	color: rgba(51,103,214,0.7);
+	font-size: 20px;
+}
+.dropdown button
+{
+	width: 110px;
+	height: 50px;
+	font-weight: 900;
+	font-size: 16px;
+	color: rgba(51,103,214,0.7);
+	background-color: transparent;
+	text-transform: capitalize;
+}
+ul .professional
+{
+	width: 250px;
+	transform: translate(-50px,0);
+
+}
+/*media query for link*/
+@media (max-width: 576px)
+{
+	.toggle_
+	{
+		float: right;
+		margin-right: 50px;
+	}
+}
