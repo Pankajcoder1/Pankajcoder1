@@ -62,9 +62,9 @@ function change_dark_mode()
 	full_screen[0].style.backgroundColor="white";
 	document.getElementsByClassName("dark")[0].style.display="none";
 	document.getElementsByClassName("light")[0].style.display="block";
-	document.getElementsByClassName("intro")[0].style.color="black";
-	document.getElementsByClassName("intro")[1].style.color="black";
-	document.getElementsByClassName("section-heading")[0].style.borderColor="rgb(0,0,0,0.5)";
+	document.getElementsByClassName("intro")[0].style.color="white";
+	document.getElementsByClassName("intro")[1].style.color="white";
+	document.getElementsByClassName("section-heading")[0].style.borderColor="white";
 	// js section for main section end
 
 	// js for skill section start

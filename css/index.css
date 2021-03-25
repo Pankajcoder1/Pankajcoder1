@@ -96,8 +96,17 @@ nav li a
 /*css for main section start*/
 .about
 {
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)),url("../img/background_image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	backdrop-filter: blur(10px);
+	color: white;
 	padding-top: 50px;
-	min-height: 850px;
+	min-height: 100vh;
+}
+.about-div .row{
+	margin-top: 30px;
 }
 .about-div .row .col-sm
 {
@@ -126,7 +135,7 @@ nav li a
 }
 .about-intro-div h1
 {
-	border-bottom: rgb(0,0,0,0.5) 1px solid;
+	border-bottom: rgb(255,255,255) 1px solid;
 	border-bottom-width: 2px;
 	width: 100px;
 }
@@ -166,6 +175,9 @@ nav li a
 
 @media(max-width: 768px)
 {
+	.about-div{
+		min-height: 850px;
+	}
 	.about-div .row .col-sm
 	{
 		padding-top: 10px;
