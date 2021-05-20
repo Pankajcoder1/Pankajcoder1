@@ -85,7 +85,14 @@ nav li a
 {
 	.nav .nav-item
 	{
+		padding: 5px;
+		font-size: 12px;
+	}
+	.nav .nav-item .nav-link{
 		padding: 0px;
+		font-size: 12px;
+	}
+	.navbar-nav .nav-item .nav-link{
 		font-size: 12px;
 	}
 }
@@ -362,7 +369,7 @@ nav li a
 	.comapny_logo{
 		display: none;
 	}
-	.duration{
+	.duration,.starting{
 		display: none;
 	}
 	.table2 tbody tr td:nth-child(2) div p{
