@@ -24,6 +24,9 @@ body
 	width: 100%;
 	top: 0px;
 }
+.navbar-toggler:focus{
+	outline: none;
+}
 .navbar-light .navbar-nav .nav-link
 {
 	margin-top: 6px;
@@ -81,10 +84,6 @@ nav li a
 @media(max-width: 576px)
 {
 	.nav .nav-item
-	{
-		padding: 5px;
-	}
-	.nav .nav-link
 	{
 		padding: 0px;
 		font-size: 12px;
@@ -199,16 +198,8 @@ nav li a
 		padding-top: 10px;
 		min-height: 250px;
 	}
-	/* to align img at center */
-	/*.row .col-xl-5
-	{
-		background-color: red;
-		left: 0%;
-	}*/
 	.row div img
 	{
-		/*background-color: red;*/
-		/*top: 50px;*/
 		height: 260px;
 		width: 250px;
 		padding: 15px;
@@ -328,14 +319,7 @@ nav li a
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 }
-/*.table2 thead tr th:nth-child(1){
-	width: 5px;
-	background-color: red;
-}
-.table2 tbody tr td:nth-child(1){
-	width: 5px;
-	background-color: red;
-}*/
+
 .table2 tbody tr td:nth-child(2){
 	min-width: 60%;
 }
@@ -352,13 +336,12 @@ nav li a
 	width: 83%;
 	padding: 3px;
 	height: 25px;
+	font-weight: bold;
 }
 .table2 tbody tr td:nth-child(2) div span{
 	width: 50px;
 }
-.table2 tbody tr td:nth-child(2) div p{
-	font-weight: bold;
-}
+
 .table2 tbody tr td:nth-child(2) div span i{
 	margin-top: 5px;
 	font-size: 20px;
@@ -367,22 +350,29 @@ nav li a
 .table2 tbody tr:hover td:nth-child(2) div span i{
 	font-size: 28px;
 }
-.table2 tbody tr td:nth-child(3){
+.table2 tbody tr td:nth-child(3),:nth-child(4),:nth-child(5){
 	text-transform: capitalize;
 }
-.table2 tbody tr td:nth-child(4){
-	text-transform: capitalize;
-}
+
 @media (max-width: 768px)
 {
-	.experience_section
-	{
+	.experience_section{
 		min-height: 100px;
 	}
-	.duration
-	{
+	.comapny_logo{
 		display: none;
 	}
+	.duration{
+		display: none;
+	}
+	.table2 tbody tr td:nth-child(2) div p{
+		font-weight: bold;
+		font-size: 15px;
+	}
+	.table2 tbody tr td:nth-child(3),:nth-child(4){
+		font-size: 15px;
+	}
+	
 }
 /* css for experience section end*/
 
@@ -448,6 +438,19 @@ nav li a
 		width: 30px;
 	}
 }
+@media(max-width: 300px)
+{
+	.connect-me div .row ul li
+	{
+		padding-top: 30px;
+		float: left;
+		display: block;
+	}
+	.github
+	{
+		margin-left: 50%;
+	}
+}
 /* css for connect me section end here */
 
 /* css for footer section */
@@ -479,19 +482,7 @@ nav li a
 /* css end for top button */
 /* css to just debug some thing*/
 
-@media(max-width: 300px)
-{
-	.connect-me div .row ul li
-	{
-		padding-top: 30px;
-		float: left;
-		display: block;
-	}
-	.github
-	{
-		margin-left: 50%;
-	}
-}
+
 
 /* css used during debuging and fixing issues */
 /* css end for debuging */
