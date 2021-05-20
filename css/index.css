@@ -96,7 +96,7 @@ nav li a
 /*css for main section start*/
 .about
 {
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)),url("../background_image.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)),url("../Images/background_image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -283,18 +283,19 @@ nav li a
 }
 .table1 tbody tr td a i
 {
+	margin-top: 5px;
 	font-size: 20px;
 }
 .table1 tbody tr:hover a i
 {
 	font-size: 28px;
 }
-tr td:nth-child(2)
+.table1 tr td:nth-child(2)
 {
 	text-transform: capitalize;
 	font-size: 15px;
 }
-tr td:nth-child(1)
+.table1 tr td:nth-child(1)
 {
 	font-size: 15px;
 }
@@ -311,6 +312,79 @@ tr td:nth-child(1)
 	}
 }
 /* css end for project section */
+
+/* css for experience section start*/
+.experience_section
+{
+	padding-top: 70px;
+	min-height: 100px;
+	font-size: 17px;
+}
+.table2 thead{
+	font-size: 18px; 	
+}
+.table2 tbody
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+/*.table2 thead tr th:nth-child(1){
+	width: 5px;
+	background-color: red;
+}
+.table2 tbody tr td:nth-child(1){
+	width: 5px;
+	background-color: red;
+}*/
+.table2 tbody tr td:nth-child(2){
+	min-width: 60%;
+}
+.table2	tbody tr td:nth-child(2) div{
+	display: flex;
+}
+.comapny_logo{
+	width: 50px;
+	height: auto;
+	padding-top: 0px;
+	border-radius: 50%;
+}
+.table2	tbody tr td:nth-child(2) div p{
+	width: 83%;
+	padding: 3px;
+	height: 25px;
+}
+.table2 tbody tr td:nth-child(2) div span{
+	width: 50px;
+}
+.table2 tbody tr td:nth-child(2) div p{
+	font-weight: bold;
+}
+.table2 tbody tr td:nth-child(2) div span i{
+	margin-top: 5px;
+	font-size: 20px;
+
+}
+.table2 tbody tr:hover td:nth-child(2) div span i{
+	font-size: 28px;
+}
+.table2 tbody tr td:nth-child(3){
+	text-transform: capitalize;
+}
+.table2 tbody tr td:nth-child(4){
+	text-transform: capitalize;
+}
+@media (max-width: 768px)
+{
+	.experience_section
+	{
+		min-height: 100px;
+	}
+	.duration
+	{
+		display: none;
+	}
+}
+/* css for experience section end*/
 
 /* css for contact me section start */
 .contact
