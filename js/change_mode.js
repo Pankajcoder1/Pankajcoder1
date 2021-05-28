@@ -45,6 +45,17 @@ function change_light_mode()
 
 	// js for contact me section end
 
+	// js for experience section start
+
+	var logo_background = document.getElementsByClassName("company_logo")[0];
+	logo_background.style.backgroundColor="white";
+
+	var column=document.querySelectorAll(".table2 tbody tr");
+	for(var i=0;i<column.length;i+=2)
+		column[i].style.backgroundColor="#141414";
+
+	// js for experience section end
+
 	// js for connect me section start
 	var github=document.querySelectorAll(".github a i")[0];
 	github.style.color="white";
@@ -84,12 +95,23 @@ function change_dark_mode()
 	for(var i=0;i<column.length;i+=2)
 		column[i].style.backgroundColor="rgba(0,0,0,.05)";
 	
-	// js for project section end
-
-	// js for project section start
+	
 	var list=document.querySelectorAll("tbody tr td");
 	for(var i=0;i<list.length;i++)
 		list[i].style.color="black";
+
+
+	// js for project section end
+	// js for experience section start
+
+	var logo_background = document.getElementsByClassName("company_logo")[0];
+	logo_background.style.backgroundColor="transparent";
+
+	var column=document.querySelectorAll(".table2 tbody tr");
+	for(var i=0;i<column.length;i+=2)
+		column[i].style.backgroundColor="rgba(0,0,0,0.05)";
+
+	// js for experience section end
 
 	// js for contact me section start
 	var list=document.querySelectorAll(".contact div .row");
