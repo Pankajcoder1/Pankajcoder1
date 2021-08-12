@@ -47,12 +47,12 @@ function change_light_mode()
 
 	// js for experience section start
 
-	var logo_background = document.getElementsByClassName("company_logo")[0];
-	logo_background.style.backgroundColor="white";
+	// var logo_background = document.getElementsByClassName("company_logo")[0];
+	// logo_background.style.backgroundColor="white";
 
-	var column=document.querySelectorAll(".table2 tbody tr");
-	for(var i=0;i<column.length;i+=2)
-		column[i].style.backgroundColor="#141414";
+	// var column=document.querySelectorAll(".table2 tbody tr");
+	// for(var i=0;i<column.length;i+=2)
+	// 	column[i].style.backgroundColor="#141414";
 
 	// js for experience section end
 
@@ -104,12 +104,12 @@ function change_dark_mode()
 	// js for project section end
 	// js for experience section start
 
-	var logo_background = document.getElementsByClassName("company_logo")[0];
-	logo_background.style.backgroundColor="transparent";
+	// var logo_background = document.getElementsByClassName("company_logo")[0];
+	// logo_background.style.backgroundColor="transparent";
 
-	var column=document.querySelectorAll(".table2 tbody tr");
-	for(var i=0;i<column.length;i+=2)
-		column[i].style.backgroundColor="rgba(0,0,0,0.05)";
+	// var column=document.querySelectorAll(".table2 tbody tr");
+	// for(var i=0;i<column.length;i+=2)
+	// 	column[i].style.backgroundColor="rgba(0,0,0,0.05)";
 
 	// js for experience section end
 
