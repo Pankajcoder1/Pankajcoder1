@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **pankajkumarmath1@gmail.com**
 
-- 📄 Know about my experiences [Resume](https://pankajcoder1.github.io/Pankajcoder1/Resume.pdf)
+- 📄 Know about my experiences [Resume](https://pankajcoder1.github.io/Pankajcoder1/Pankaj_Kumar.pdf)
 - 🔥 Visit my portfolio [here](https://pankajcoder1.github.io/Pankajcoder1/)
 
 <h3 align="left">Connect with me:</h3>
