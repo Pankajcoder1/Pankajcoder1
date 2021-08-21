@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- <meta http-equiv="refresh" content="2"> -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<title>
+		Pankaj Kumar
+	</title>
+
+	<!-- cdn link for font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- mdl cdn link -->
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assest/css/index.css">
+	<link rel="stylesheet" type="text/css" href="assest/css/light_mode.css">
+</head>
+<body>
+	<!-- starting navbar -->
+	<nav class="navbar navbar-light navbar-expand-lg" id="top">
+		<div class="container">
+			<ul class="nav">
+				<li class="nav-item">
+					<a href="#about" class="nav-link active">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#skill" class="nav-link">Skills</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="#project" class="nav-link">Project</a>
+				</li>
+				<!-- <li class="nav-item">
+					<a href="#experience" class="nav-link">Experience 
+						</a>
+				</li> -->
+				
+			</ul>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+
+					<li class="nav-item dropdown">
+
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Professional Link
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+				              <a href="https://www.linkedin.com/in/pankaj-kumar-795b48198/" class="dropdown-item">Linkedin</a>
+				            </li>
+				            <li>
+				              <a href="https://github.com/Pankajcoder1" class="dropdown-item">Github</a>
+				            </li>
+							<li>
+				              <a href="https://codeforces.com/profile/Pankaj_Kumar1" class="dropdown-item">Codeforces</a>
+				            </li>
+
+				            <li>
+				              <a href="https://www.codechef.com/users/pankajcoder1" class="dropdown-item">Codechef</a>
+				            </li>
+
+				            <!-- <li>
+				              <a href="https://codingcompetitions.withgoogle.com/profile" class="dropdown-item">Kickstart</a>
+				            </li> -->
+
+							<li>
+	              				<a href="https://www.hackerearth.com/@pankaj1289" class="dropdown-item">Hackerearth</a>
+	            			</li>
+
+				            <li>
+				              <a href="https://www.hackerrank.com/pankajcoder1" class="dropdown-item">Hackerrank</a>
+				            </li>
+				            
+				            <li>
+				              <a href="https://atcoder.jp/users/Pankajcoder1" class="dropdown-item">Atcoder</a>
+				            </li>
+
+				            <li>
+				              <a href="https://www.stopstalk.com/user/profile/Pankajcoder1" class="dropdown-item">StopStalk</a>
+				            </li>
+
+				            <li>
+				              <a href="https://leetcode.com/pankajkumarmath1/" class="dropdown-item">Leetcode</a>
+				            </li>
+
+				            <li>
+				              <a href="https://stackoverflow.com/users/12746449/pankaj-kumar" class="dropdown-item">StackOver Flow</a>
+				            </li>
+
+				            <li>
+				              <a href="https://www.spoj.com/users/pankajcoder1/" class="dropdown-item">Spoj</a>
+				            </li>
+
+				            <!-- <li>
+				              <a href="https://open.kattis.com/users/pankajcoder1" class="dropdown-item">Open Kattis</a>
+				            </li> -->
+
+				            <!-- <li>
+				              <a href="https://linktr.ee/pankajcoder1" class="dropdown-item">LinkTree</a>
+				            </li> -->
+				            
+				            <!-- <li>
+				              <a href="https://carbon.now.sh/account" class="dropdown-item">Carbon</a>
+				            </li> -->
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Social Link</a>
+						<ul class="dropdown-menu">
+				            <li class="">
+				              <a href="https://twitter.com/PankajK66627177" class="dropdown-item">Twitter</a>
+				            </li>
+
+				            <li class="">
+				              <a href="https://www.instagram.com/pankajcoder1/" class="dropdown-item">Instagram</a>
+				            </li>
+						</ul>
+					</li>
+
+					<!-- resume button -->
+					<li class="nav-item" style="font-weight: 900;">
+						<a href="Pankaj_Kumar.pdf" class="nav-link" target="_blank">Resume</a>
+					</li>
+				
+					<!-- dark mode system -->
+					<li class="nav-item light" onclick="change_light_mode();">
+						<a href="#" class="nav-link"><span class="material-icons">mode_night</span></a>
+					</li>
+					<!-- light mode -->
+					<li class="nav-item dark" style="display: none;" onclick="change_dark_mode();">
+						<a href="#" class="nav-link"><span class="material-icons">light_mode</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- navbar end -->
+
+	<!-- start main section -->
+	<div>
+		<!-- start about section -->
+		<div class="about" id="about">
+			<div class="container about-div" style="">
+				<div class="row" style="">
+					<div class="col-sm col-sm-12 col-md-5 col-xl-5">
+						<img src="assest/Images/Pankaj_Kumar.jpg" class="img-fluid img-responsive" alt="Profile Image">
+					</div>
+					<div class="col-sm col-sm-12 col-md-7 col-xl-7 container about-intro">
+						<div class="container about-intro-div">
+							<h1 class="section-heading">About</h1>
+							<p class="intro">
+								Hi, My name is <b>Pankaj Kumar</b>. I'm currently pursuing B.Tech from Computer Sciecne and Enginerring at National Institute of Technology Uttarakhand (2018-2022).
+							</p>
+							<p class="intro">
+								I am a <b>Software Developer</b> and <b>Frontend Web Developer.</b>
+							</p>
+							<div class="btn explore-button">
+								<a href="#skill">Explore More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end about section -->
+	</div>
+	<!-- end main section -->
+
+	<!-- skill section start -->
+	<section class="skill-section container" id="skill">
+		<div class="container" style="padding: 15px;">
+			<h1 class="text-center section-heading">
+				Skills
+			</h1>
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<p>Strengths</p>
+					<ul class="strength_list">
+						<li>
+							<p>Algorithms</p>
+						</li>
+						<li>
+							<p>Data Structure</p>
+						</li>
+						
+						<li>
+							<p>Object Oriented Programming</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-4">
+					<p>
+						Programming
+					</p>
+					<ul class="programming_list">
+						<li>
+							<p>C++(Intermediate)</p>
+						</li>
+						<li>
+							<p>Python</p>
+						</li>
+						<li>
+							<p>HTML</p>
+						</li>
+						<li>
+							<p>CSS</p>
+						</li>
+						<li>
+							<p>Javascript</p>
+						</li>
+						<li>
+							<p>PHP</p>
+						</li>
+						<li>
+							<p>SQL</p>
+						</li>
+
+					</ul>
+				</div>
+				<div class="col-sm-4">
+					<p>
+						Other Tools and Framework
+					</p>
+					<ul class="other_list">
+						<li>
+							<p>Git</p>
+						</li>
+						<li>
+							<p>Bootstrap</p>
+						</li>
+						<li>
+							<p>Adobe XD</p>
+						</li>
+						<li>
+							<p>Keras for Neural Network</p>
+						</li>
+						<li>
+							<p>Linux</p>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- skill section end -->
+
+	<!-- project section start -->
+	<section class="project-section" id="project">
+		<div class="container">
+			<h1 class="text-center section-heading">
+				Project
+			</h1>
+			<table class="table table-striped table1">
+				<thead class="thead-dark">
+					<tr>
+						<th>S.No</th>
+						<th>Project Name</th>
+						<th class="description">Description</th>
+						<th>Link</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Destributive Compiler</td>
+						<td class="description">
+							<p>
+								Distributed compiler aims to achieve compilation of programs and projects on the distributed network.Users needs to do is to share his code(by providing GitHub link) and request for compilation.
+							</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/Kanhakhatri065/Hackverse2.0" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>2</td>
+						<td>Notes Bank</td>
+						<td class="description">
+							<p>
+								This is a full web application developed by using framework like Bootstrap and simple Js.This system can be used by institution as a common platform for sharing notes and question paper or to store it for future use.
+							</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/Pankajcoder1/Notes/" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>3</td>
+						<td>Resume Verifier</td>
+						<td class="description">
+							<p>
+								A background service which give you score of 0-100 after analysing your data in resume and some link like github, linkedin, stack overflow etc.
+							</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/divakar-lakhera/Makeathon2020" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>4</td>
+						<td>MNIST Deep Learning Model</td>
+						<td class="description">
+							<p>
+								A deep learning model trained on MNIST dataset with accuracy of approx 98%. I used keras API. This model can be used in  CCTV or any other application to recognize any vechile number.
+							</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/Pankajcoder1/machine_learning_and_more../tree/master/mnist/" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>5</td>
+						<td>Cats and Dogs(Binary) prediction Deep Learning Model</td>
+						<td class="description">
+							<p>
+								A deep learning model trained on Cat and Dog dataset. I used keras API. This model predict either given image is dog or cat.
+							</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/Pankajcoder1/machine_learning_and_more../tree/master/cats_dogs_classification" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>6</td>
+						<td>Heart attack Prediction</td>
+						<td class="description">
+							<p>
+								A machine learning model trained on Heart attack dataset with accuracy of approx 84%.I used different machine learning algorithms and pipline concept.This model predict possibility of heart attack on basis of medical data.
+								<p>
+									I designed this project under summer training course at IIT Kanpur.
+								</p>
+							</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/Pankajcoder1/AI_course_at_IIT_KANPUR/tree/master/Machine%20Learning/projects/final_project/" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+
+					<tr>
+						<td>7</td>
+						<td>Technological Gyan</td>
+						<td class="description">
+							<p>
+								A user friendly web application which can be simply called as a clone of stackoverflow which have some functions of it. This can be used  so share technical knowledge among junior and senior which also make each other fiendly.
+								</p>
+						</td>
+						<td class="text-center">
+							<a href="https://github.com/Pankajcoder1/technological_gyan/" target="_blank">
+								<i class="fa fa-link"></i>
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+		</div>
+	</section>
+	<!-- project section end -->
+
+	<!-- experience section start -->
+<!-- 
+	<section class="experience_section" id="experience">
+		<div class="container">
+			<h1 class="text-center section-heading">
+				Experience
+			</h1>
+			<table class="table table-striped table2">
+				<thead class="table-dark">
+					<tr>
+						<th>
+							S.no
+						</th>
+						<th>
+							Company
+						</th>
+						<th>
+							Position
+						</th>
+						<th class="starting">
+							Starting
+						</th>
+						<th class="duration">
+							Duration
+						</th>
+					</tr>
+				</thead>
+
+				<tbody class="table2_tbody">
+					<tr>
+						<td>1</td>
+						add company logo company name and company link
+						<td>
+							<div >
+								<img src="Images/flodata.webp" alt="Company Logo" class="img-responsive img-fluid company_logo">
+								<p>Flodata Analytics</p>
+								<span class="text-center">
+									<a href="https://flodataanalytics.com/" target="_blank">
+										<i class="fa fa-link"></i>
+									</a>
+								</span>
+							</div>
+							
+						</td>
+						<td>Web developer</td>
+						<td class="starting">may 2021</td>
+						<td class="duration">3 months</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section> -->
+
+	<!-- experience section end -->
+
+	<!-- contact me section start -->
+
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="text-center">
+				<p class="section-heading">Contact Me</p>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-4 text-center">
+					
+					<div>
+						<i class="fa fa-map-marker" ></i>
+						<p>
+							My Address
+						</p>
+						<p>
+							Gauragarh, Biharsharif Nalanda (803101), Bihar, India
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 text-center">
+					<div>
+						<a href="mailto:pankajkumarmath1@gmail.com" title="mail">
+							<i class="fa fa-envelope"></i>
+						</a>
+						<p>
+							Email me
+						</p>
+						<p>
+							pankajkumarmath1@gmail.com
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 text-center">
+					<div>
+						<i class="fa fa-phone" ></i>
+						<p>
+							Call me
+						</p>
+						<p>
+							+91-9155082479
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- connect me section start -->
+	<section class="connect-me" id="connect-me">
+		<div class="container">
+			<div class="text-center">
+				<p class="section-heading">
+					Connect with me
+				</p>
+			</div>
+			<div class="row justify-content-center">
+				<ul class="col-4">
+					<li class="github">
+						<a href="https://github.com/Pankajcoder1" title="Github account">
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+					<li class="col-4 linkedin">
+						<a href="https://www.linkedin.com/in/pankaj-kumar-795b48198/" title="Linkedin account">
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- contact me section end -->
+
+	<!-- footer section start -->
+	<footer class="footer">
+		<div class="container-fluid text-center">
+			<p>
+				&copy;All rights reserved | Made with <i class="fa fa-heart" style="color: red;"></i> by <a href="https://github.com/Pankajcoder1"> Pankaj Kumar</a>.
+			</p>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+	<a href="#top" id="top-button" class="top-button btn" onclick="top_button()">
+		<i class="fa fa-angle-up text-center"></i>
+	</a>
+
+	<!-- js files added here -->
+	<script type="text/javascript" src="assest/js/change_mode.js"></script>
+	<script type="text/javascript" src="assest/js/index.js"></script>
+
+<!-- end here -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.10.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+
+</body>
+</html>
