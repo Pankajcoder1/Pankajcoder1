@@ -15,15 +15,6 @@ nav li a
 {
 	background-color: #7456c6;
 }
-.navbar:hover
-{
-	/*background-color: #f8f9fa;*/
-}
-.navbar:hover .nav-item>a
-{
-	/*color: #7456c6;*/
-}
-
 .nav-link:hover
 {
 	color: #000;

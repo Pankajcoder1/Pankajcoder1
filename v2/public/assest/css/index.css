@@ -4,7 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 /*css start*/
-/* css to handle different media will later write */
 
 body
 {
@@ -56,7 +55,7 @@ nav li a
 }
 /* css for media query of navbar section*/
 
-@media(max-width: 992px) and (min-width: 768px)
+@media(max-width: 992px) and (min-width: 767px)
 {
 	nav .container
 	{
@@ -69,7 +68,7 @@ nav li a
 	}
 }
 
-@media(max-width: 768px)
+@media(max-width: 767px)
 {
 	nav .container
 	{
@@ -167,7 +166,7 @@ nav li a
 }
 
 /*css for media query for main section*/
-@media(max-width: 992px) and (min-width: 768px)
+@media(max-width: 992px) and (min-width: 767px)
 {
 	.row div img
 	{
@@ -297,7 +296,7 @@ nav li a
 {
 	font-size: 15px;
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 {
 	.project-section
 	{
@@ -361,7 +360,7 @@ nav li a
 	text-transform: capitalize;
 }
 
-@media (max-width: 768px)
+@media (max-width: 767px)
 {
 	.experience_section{
 		min-height: 100px;
@@ -411,53 +410,35 @@ nav li a
 /* css for contact me section end here */
 
 /* css start for connect me section*/
-.connect-me
-{
-	padding-top: 10px;
-	min-height: 200px;
+
+.connect-me-inner-div{
+	min-height: 100px;
+	padding-top: 15px;
 }
-.connect-me div .row ul li
-{
+.connect-me-inner-div ul{
 	list-style-type: none;
+	text-align: center;
 }
-.connect-me div .row ul li a i,img
-{
-	height: 60px;
-	padding-top: 20px;
+.connect-me-inner-div ul li{
+	display: inline;
+	margin-right: 30px;
+}
+.connect-me-inner-div ul li a i{
 	font-size: 30px;
+	color: #000;
+}
+.connect-me-inner-div ul li:hover i{
+	color: #7456c6;
+}
+@media(max-width: 575px){
+	.connect-me-inner-div ul li a i{
+		font-size: 28px;
+	}
+	.connect-me-inner-div ul li{
+		margin-right: 28px;
+	}
 }
 
-.connect-me div .row ul li
-{
-	float: left;
-	margin-left: 22%;
-}
-@media (max-width: 576px)
-{
-	.connect-me div .row ul li
-	{
-		float: left;
-		margin-left: 0%;
-	}
-	.connect-me div .row ul li a i
-	{
-		height: 30px;
-		width: 30px;
-	}
-}
-@media(max-width: 300px)
-{
-	.connect-me div .row ul li
-	{
-		padding-top: 30px;
-		float: left;
-		display: block;
-	}
-	.github
-	{
-		margin-left: 50%;
-	}
-}
 /* css for connect me section end here */
 
 /* css for footer section */

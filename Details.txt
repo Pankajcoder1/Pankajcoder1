@@ -1,0 +1,7 @@
+This file contain information about some file.
+
+v2/public/assest/css/light_mode.css -> contain css code which lead to change color of page. 
+v2/public/assest/css/index.css -> contain remaining css code of page.
+v2/public/assest/js/index.js -> contain js code for bottom right arrow button.
+v2/public/assest/js/change_mode.js -> contain js code to change mode.
+v2/public/assest/Images -> contain all images

@@ -1,6 +1,6 @@
 var full_screen=document.getElementsByTagName("body");
 
-
+// for dark mode
 function change_light_mode()
 {
 	// js for main section start
@@ -45,28 +45,23 @@ function change_light_mode()
 
 	// js for contact me section end
 
-	// js for experience section start
-
-	// var logo_background = document.getElementsByClassName("company_logo")[0];
-	// logo_background.style.backgroundColor="white";
-
-	// var column=document.querySelectorAll(".table2 tbody tr");
-	// for(var i=0;i<column.length;i+=2)
-	// 	column[i].style.backgroundColor="#141414";
-
-	// js for experience section end
-
 	// js for connect me section start
-	var github=document.querySelectorAll(".github a i")[0];
+	var github=document.querySelectorAll(".github_account a i")[0];
 	github.style.color="white";
-	var linkedin=document.querySelectorAll(".linkedin a i")[0];
-	linkedin.style.color="white";
+	var linkedin = document.querySelectorAll(".linkedin_account a i")[0];
+	linkedin.style.color = "white";
+	var instagram = document.querySelectorAll(".instagram_account a i")[0];
+	instagram.style.color = "white";
+	var twitter = document.querySelectorAll(".twitter_account a i")[0];
+	twitter.style.color = "white";
+	
 
 	// js for connect me section end
 
 }
 
 
+// light mode
 function change_dark_mode()
 {
 	// js for main section start
@@ -100,18 +95,7 @@ function change_dark_mode()
 	for(var i=0;i<list.length;i++)
 		list[i].style.color="black";
 
-
 	// js for project section end
-	// js for experience section start
-
-	// var logo_background = document.getElementsByClassName("company_logo")[0];
-	// logo_background.style.backgroundColor="transparent";
-
-	// var column=document.querySelectorAll(".table2 tbody tr");
-	// for(var i=0;i<column.length;i+=2)
-	// 	column[i].style.backgroundColor="rgba(0,0,0,0.05)";
-
-	// js for experience section end
 
 	// js for contact me section start
 	var list=document.querySelectorAll(".contact div .row");
@@ -119,10 +103,14 @@ function change_dark_mode()
 	// js for contact me section end
 
 
-	var github=document.querySelectorAll(".github a i")[0];
-	github.style.color="black";
-	var linkedin=document.querySelectorAll(".linkedin a i")[0];
-	linkedin.style.color="black";
+	var github = document.querySelectorAll(".github_account a i")[0];
+	github.style.color = "black";
+	var linkedin = document.querySelectorAll(".linkedin_account a i")[0];
+	linkedin.style.color = "black";
+	var instagram = document.querySelectorAll(".instagram_account a i")[0];
+	instagram.style.color = "black";
+	var twitter = document.querySelectorAll(".twitter_account a i")[0];
+	twitter.style.color = "black";
 	$(document).ready(function()
 	{
 		$(github).hover(function()
@@ -140,6 +128,18 @@ function change_dark_mode()
 		function()
 		{
 			$(this).css("color","black");
+		});
+		$(instagram).hover(function () {
+			$(this).css("color", "#7456c6");
+		},
+		function () {
+			$(this).css("color", "black");
+		});
+		$(twitter).hover(function () {
+			$(this).css("color", "#7456c6");
+		},
+		function () {
+			$(this).css("color", "black");
 		});
 	});
 
