@@ -1,11 +1,16 @@
 {
   "hosting": {
-    "site": "pankajkumar",
-    "public": "v2/public",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
