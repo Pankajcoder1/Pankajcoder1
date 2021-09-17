@@ -5,14 +5,14 @@
 
 <p align="left"> <a href="https://twitter.com/pankajk66627177" target="blank"><img src="https://img.shields.io/twitter/follow/pankajk66627177?logo=twitter&style=for-the-badge" alt="pankajk66627177" /></a> </p>
 
-<!--- - 🌱 I’m currently learning **React Js** --->
+- 🌱 I’m currently learning **Java** -
 
 - 👨‍💻 All of my projects are available at [https://github.com/Pankajcoder1/](https://github.com/Pankajcoder1/)
 
 - 📫 How to reach me **pankajkumarmath1@gmail.com**
 
 - 📄 Know about my experiences [Resume](https://pankajcoder1.github.io/Pankajcoder1/Pankaj_Kumar.pdf)
-- 🔥 Visit my portfolio [here](https://pankajcoder1.github.io/Pankajcoder1/)
+- 🔥 Visit my portfolio [here](https://pankajkumar.web.app/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
