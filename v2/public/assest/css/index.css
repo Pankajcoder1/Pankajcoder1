@@ -218,7 +218,7 @@ nav li a
 		padding: 15px;
 		margin: 15px;
 		border-radius: 48%;
-		margin-left: 20%;
+		margin-left: 22%;
 	}
 	nav .container
 	{
@@ -228,6 +228,13 @@ nav li a
 	.intro
 	{
 		font-size: 18px;
+	}
+}
+
+@media(max-width: 400px){
+	.row div img
+	{
+		margin-left: 15%;
 	}
 }
 /*css end for main section*/
