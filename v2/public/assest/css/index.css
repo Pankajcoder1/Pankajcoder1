@@ -146,8 +146,8 @@ nav li a
 }
 .row div img
 {	
-	height: 400px;
-	width: 350px;
+	height: 360px;
+	width: 360px;
 	padding: 15px;
 	margin: 15px;
 	border-radius: 48%;
@@ -170,8 +170,8 @@ nav li a
 {
 	.row div img
 	{
-		height: 350px;
-		width: 410px;
+		height: 280px;
+		width: 280px;
 		padding: 15px;
 		margin: 15px;
 		border-radius: 48%;
@@ -190,11 +190,18 @@ nav li a
 	}
 	.row div img
 	{	
-		height: 360px;
-		width: 370px;
+		height: 280px;
+		width: 280px;
+		padding: 0;
+		margin: 0;
 		padding: 15px;
-		margin-left: 30px;
+		margin-left: 23%;
 		border-radius: 48%;
+
+	}
+	.intro
+	{
+		font-size: 22px;
 	}
 }
 @media(max-width: 576px)
@@ -211,15 +218,12 @@ nav li a
 		padding: 15px;
 		margin: 15px;
 		border-radius: 48%;
+		margin-left: 20%;
 	}
 	nav .container
 	{
 		margin-left: 0px;
 		margin-right: 0px;
-	}
-	.row div img
-	{
-		margin-left: 0px;
 	}
 	.intro
 	{
