@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Pankaj Kumar</h1>
-<h3 align="center">Software Developer | Competitive Programmer</h3>
+<h3 align="center">Software Developer | Competitive Programmer | YouTuber</h3>
 <h3 align="center">Upcoming ASDE @Publicis Sapient</h3>
 
 
