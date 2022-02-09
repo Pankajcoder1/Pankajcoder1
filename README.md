@@ -32,7 +32,7 @@
     <a href="https://discord.gg/pankajcoder1#0402" target="blank">
         <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="pankajcoder1#0402" height="30" width="40" />
     </a>
-    <a href="https://www.youtube.com/c/https://www.youtube.com/channel/ucsvfa_mo9u3_eglngwnpcwg" target="blank">
+    <a href="https://www.youtube.com/channel/UCSVfA_mo9u3_eglngWNpCWg" target="blank">
         <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/channel/ucsvfa_mo9u3_eglngwnpcwg" height="30" width="40" />
     </a>
 </p>
