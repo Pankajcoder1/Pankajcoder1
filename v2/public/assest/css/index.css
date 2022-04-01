@@ -245,7 +245,7 @@ nav li a
 .skill-section
 {
 	padding-top: 58px;
-	min-height: 500px;
+	min-height: 200px;
 }
 .skill-section .container h1
 {
@@ -271,7 +271,7 @@ nav li a
 .project-section
 {
 	padding-top: 70px;
-	min-height: 820px;
+	min-height: 400px;
 }
 .description
 {
