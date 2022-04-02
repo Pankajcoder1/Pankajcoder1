@@ -393,78 +393,54 @@ nav li a
 }
 /* css for experience section end*/
 
-/* css for contact me section start */
-.contact
-{
-	padding-top: 45px;
-	min-height: 350px;
-}
-
-.contact .container .row .col-lg-4 div
-{
-	min-height: 190px;
-	width: auto;
-	margin: 10px;
-	border: 1px solid #7456c6;
-	border-radius: 10px;
-}
-.contact .container .row i
-{
-	padding-top: 20px;
-	font-size: 52px;
-}
-.contact .container .row :hover i
-{
-	padding-top: 20px;
-	font-size: 60px;
-}
-/* css for contact me section end here */
-
 /* css start for connect me section*/
 
-.connect-me-inner-div{
-	min-height: 100px;
-	padding-top: 15px;
+.reach-out-to-me{
+	min-height: 180px;
+	padding-top: 25px;
 }
-.connect-me-inner-div ul{
+.reach-out-to-me-inner-div{
+	padding-top: 10px;
+}
+.reach-out-to-me-inner-div ul{
 	list-style-type: none;
 }
-.connect-me-inner-div ul li{
+.reach-out-to-me-inner-div ul li{
 	display: inline;
 	margin-right: 20px;
 	margin-left: 20px;
 }
-.connect-me-inner-div ul li a i{
+.reach-out-to-me-inner-div ul li a i{
 	font-size: 30px;
 	color: #000;
 }
 
-.connect-me-inner-div ul li:nth-child(1):hover i{
+.reach-out-to-me-inner-div ul li:nth-child(1):hover i{
 	color: black;
 }
-.connect-me-inner-div ul li:nth-child(2):hover i{
+.reach-out-to-me-inner-div ul li:nth-child(2):hover i{
 	color: #0e76a8;
 }
-.connect-me-inner-div ul li:nth-child(3):hover i{
+.reach-out-to-me-inner-div ul li:nth-child(3):hover i{
 	color: #bc2a8d;
 }
-.connect-me-inner-div ul li:nth-child(4):hover i{
+.reach-out-to-me-inner-div ul li:nth-child(4):hover i{
 	color: #1DA1F2;
 }
-.connect-me-inner-div ul li:nth-child(5):hover i{
+.reach-out-to-me-inner-div ul li:nth-child(5):hover i{
 	color: red;
 }
 
 @media(max-width: 575px){
-	.connect-me-inner-div ul li{
+	.reach-out-to-me-inner-div ul li{
 		display: inline;
 		margin-right: auto;
 		margin-left: auto;
 	}
-	.connect-me-inner-div ul li a i{
+	.reach-out-to-me-inner-div ul li a i{
 		font-size: 28px;
 	}
-	.connect-me-inner-div ul li{
+	.reach-out-to-me-inner-div ul li{
 		margin-right: 28px;
 	}
 }

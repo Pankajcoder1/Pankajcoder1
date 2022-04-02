@@ -60,44 +60,22 @@ nav li a
 }
 /* css end for skill section*/
 
-
-/* css for contact me section start */
-.contact .container .row
-{
-	background-color: #f8f9fa;
-}
-.contact .container .row .col-lg-4 div
-{
-	border: 1px solid #7456c6;
-	background-color: white;
-	border-radius: 10px;
-}
-.contact .container .row i
-{
-	color: #7456c6;
-}
-.contact .container .row :hover i
-{
-	color: #7456c6;
-}
-/* css for contact me section end here */
-
 /* css start for connect me section*/
-.connect-me div .row ul li a i,img
+.reach-out-to-me div .row ul li a i,img
 {
 	height: 60px;
 	padding-top: 20px;
 	font-size: 30px;
 	color: #000;
 }
-.connect-me div .row ul li a i:hover
+.reach-out-to-me div .row ul li a i:hover
 {
 	color: #7456c6;
 }
 
 @media (max-width: 576px)
 {
-	.connect-me div .row ul li a i
+	.reach-out-to-me div .row ul li a i
 	{
 		color: #000;
 	}
@@ -122,8 +100,3 @@ nav li a
   	color: #fff; 
 }
 /* css end for top button */
-/* css to just debug some thing*/
-
-/* css used during debuging and fixing issues */
-
-/* css end for debuging */

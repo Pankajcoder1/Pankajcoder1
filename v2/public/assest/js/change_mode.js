@@ -53,19 +53,13 @@ function change_light_mode()
 	// js for experience section end here
 
 
-	// js for contact me section start
-	var list=document.querySelectorAll(".contact div .row");
-	list[0].style.backgroundColor ="#303030";
-
-	// js for contact me section end
-
-	// js for connect me section start
+	// js for reach out to me section start
 	var github=document.querySelectorAll(".github_account a i")[0];
 	github.style.color="white";
 	var linkedin = document.querySelectorAll(".linkedin_account a i")[0];
 	linkedin.style.color = "white";
-	var instagram = document.querySelectorAll(".instagram_account a i")[0];
-	instagram.style.color = "white";
+	var email = document.querySelectorAll(".email a i")[0];
+	email.style.color = "white";
 	var twitter = document.querySelectorAll(".twitter_account a i")[0];
 	twitter.style.color = "white";
 	var youtube = document.querySelectorAll(".youtube_account a i")[0];
@@ -84,7 +78,7 @@ function change_light_mode()
 			function () {
 				$(this).css("color", "#ffffff");
 			});
-		$(instagram).hover(function () {
+		$(email).hover(function () {
 			$(this).css("color", "#ffffff");
 		},
 			function () {
@@ -104,7 +98,7 @@ function change_light_mode()
 			});
 	});
 
-	// js for connect me section end
+	// js for reach out to me section end
 
 }
 
@@ -159,20 +153,15 @@ function change_dark_mode()
 
 	// js for experience section end here
 
-	// js for contact me section start
-	var list=document.querySelectorAll(".contact div .row");
-	list[0].style.backgroundColor="white";
-	// js for contact me section end
 
-
-	// js for connect me section start
+	// js for reach out to me section start
 	
 	var github = document.querySelectorAll(".github_account a i")[0];
 	github.style.color = "black";
 	var linkedin = document.querySelectorAll(".linkedin_account a i")[0];
 	linkedin.style.color = "black";
-	var instagram = document.querySelectorAll(".instagram_account a i")[0];
-	instagram.style.color = "black";
+	var email = document.querySelectorAll(".email a i")[0];
+	email.style.color = "black";
 	var twitter = document.querySelectorAll(".twitter_account a i")[0];
 	twitter.style.color = "black";
 	var youtube = document.querySelectorAll(".youtube_account a i")[0];
@@ -195,7 +184,7 @@ function change_dark_mode()
 		{
 			$(this).css("color","black");
 		});
-		$(instagram).hover(function () {
+		$(email).hover(function () {
 			$(this).css("color", "#bc2a8d");
 		},
 		function () {
@@ -215,5 +204,5 @@ function change_dark_mode()
 		});
 	});
 
-	// js for connect me section end
+	// js for reach out to me section end
 }
