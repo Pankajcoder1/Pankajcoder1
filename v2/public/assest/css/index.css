@@ -267,60 +267,6 @@ nav li a
 /* css end for skill section*/
 
 
-/* css start for project section*/
-.project-section
-{
-	padding-top: 70px;
-	min-height: 400px;
-}
-.description
-{
-	font-size: 17px;
-}
-.table1 tbody
-{
-	font-family: 'Source Sans Pro', sans-serif;
-}
-.table1 thead
-{
-	font-size: 18px;
-}
-.table1 tbody tr td:nth-child(2)
-{
-	font-weight: bold;
-}
-.table1 tbody tr td a i
-{
-	margin-top: 5px;
-	font-size: 20px;
-}
-.table1 tbody tr:hover a i
-{
-	font-size: 28px;
-}
-.table1 tr td:nth-child(2)
-{
-	text-transform: capitalize;
-	font-size: 15px;
-}
-.table1 tr td:nth-child(1)
-{
-	font-size: 15px;
-}
-@media (max-width: 767px)
-{
-	.project-section
-	{
-		min-height: 550px;
-	}
-	/* description column create problem in mobile and tab view so I remove it for that device only */
-	.description
-	{
-		display: none;
-	}
-}
-/* css end for project section */
-
 /* css for experience section start*/
 .experience_section
 {
@@ -347,7 +293,6 @@ nav li a
 	width: 60px;
 	height: 60px;
 	padding-top: 0px;
-	border-radius: 50%;
 }
 .table2	tbody tr td:nth-child(2) div p{
 	width: 83%;
@@ -367,9 +312,7 @@ nav li a
 .table2 tbody tr:hover td:nth-child(2) div span i{
 	font-size: 28px;
 }
-.table2 tbody tr td:nth-child(3),:nth-child(4),:nth-child(5){
-	text-transform: capitalize;
-}
+
 
 @media (max-width: 767px)
 {
@@ -392,6 +335,59 @@ nav li a
 	
 }
 /* css for experience section end*/
+
+/* css start for project section*/
+.project-section {
+	padding-top: 70px;
+	min-height: 400px;
+}
+
+.description {
+	font-size: 17px;
+}
+
+.table1 tbody {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.table1 thead {
+	font-size: 18px;
+}
+
+.table1 tbody tr td:nth-child(2) {
+	font-weight: bold;
+}
+
+.table1 tbody tr td a i {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.table1 tbody tr:hover a i {
+	font-size: 28px;
+}
+
+.table1 tr td:nth-child(2) {
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+.table1 tr td:nth-child(1) {
+	font-size: 15px;
+}
+
+@media (max-width: 767px) {
+	.project-section {
+		min-height: 550px;
+	}
+
+	/* description column create problem in mobile and tab view so I remove it for that device only */
+	.description {
+		display: none;
+	}
+}
+
+/* css end for project section */
 
 /* css start for connect me section*/
 
