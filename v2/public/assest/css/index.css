@@ -68,7 +68,7 @@ nav li a{
 
 @media(max-width: 767px){
 	.nav-link{
-		font-size: 14px;
+		font-size: 14px;	
 	}
 }
 @media(max-width: 576px){
@@ -343,6 +343,26 @@ nav li a{
 
 /* css end for project section */
 
+/* css for education start */
+.education-section {
+	padding: 70px;
+	min-height: 100px;
+}
+
+.pills {
+	display: flex;
+	justify-content: space-around;
+}
+
+@media(max-width: 575px) {
+	.education-section {
+		display: none;
+	}
+}
+
+/* css for education end */
+
+
 /* css start for reach out to me section*/
 
 .reach-out-to-me{
@@ -383,6 +403,9 @@ nav li a{
 }
 
 @media(max-width: 575px){
+	.reach-out-to-me{
+		padding: 30px;
+	}
 	.reach-out-to-me-inner-div ul li{
 		display: inline;
 		margin-right: auto;
@@ -422,15 +445,3 @@ nav li a{
   	/*max-height: 50px;*/
 }
 /* css end for top button */
-
-/* css for education start */
-.education-section{
-	padding: 70px;
-	min-height: 100px;
-}
-.pills{
-	display: flex;
-	justify-content: space-around;
-}
-
-/* css for education end */
