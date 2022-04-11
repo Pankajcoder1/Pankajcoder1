@@ -64,3 +64,6 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+#  file name
+version release note.md

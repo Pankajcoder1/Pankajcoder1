@@ -1,3 +1,7 @@
+//
+//	Developer: Pankaj Kumar
+//
+
 var full_screen=document.getElementsByTagName("body");
 
 // for dark mode
@@ -52,18 +56,29 @@ function change_light_mode()
 	
 	// js for experience section end here
 
+	// js for project section start
+
+	var all_badges = document.querySelectorAll(".tech-stack-div .badge");
+	for (var i = 0; i < all_badges.length; i++){
+		all_badges[i].style.color = "#000";
+	}
+	// js for project section end here
+
+	// js for education section start
+	
+	var all_cell = document.querySelectorAll(".education-section .container tr td");
+	for (var i = 0; i < all_cell.length; i++){
+		all_cell[i].style.color = "#fff";
+	}
+	var all_badges = document.querySelectorAll(".education-section .container .badge");
+	for (var i = 0; i < all_badges.length; i++){
+		all_badges[i].style.color = "#000";
+	}
+
+	// js for education section end here
+
 
 	// js for reach out to me section start
-	var github=document.querySelectorAll(".github_account a i")[0];
-	github.style.color="white";
-	var linkedin = document.querySelectorAll(".linkedin_account a i")[0];
-	linkedin.style.color = "white";
-	var email = document.querySelectorAll(".email a i")[0];
-	email.style.color = "white";
-	var twitter = document.querySelectorAll(".twitter_account a i")[0];
-	twitter.style.color = "white";
-	var youtube = document.querySelectorAll(".youtube_account a i")[0];
-	youtube.style.color = "white";
 	
 	$(document).ready(function () {
 		$(github).hover(function () {
@@ -153,19 +168,16 @@ function change_dark_mode()
 
 	// js for experience section end here
 
+	// js for education section start
+	var all_badges = document.querySelectorAll(".education-section .container .badge");
+	for (var i = 0; i < all_badges.length; i++) {
+		all_badges[i].style.color = "#fff";
+	}
+	// js for education section end here
+
 
 	// js for reach out to me section start
-	
-	var github = document.querySelectorAll(".github_account a i")[0];
-	github.style.color = "black";
-	var linkedin = document.querySelectorAll(".linkedin_account a i")[0];
-	linkedin.style.color = "black";
-	var email = document.querySelectorAll(".email a i")[0];
-	email.style.color = "black";
-	var twitter = document.querySelectorAll(".twitter_account a i")[0];
-	twitter.style.color = "black";
-	var youtube = document.querySelectorAll(".youtube_account a i")[0];
-	youtube.style.color = "black";
+
 	$(document).ready(function()
 	{
 		$(github).hover(function()

@@ -1,27 +1,22 @@
-/* by default background color is
-background-color: #f8f9fa;
+/*
+	Developer : Pankaj Kumar
 */
 
-.section-heading
-{
+.section-heading{
 	color: #7456c6;
 }
 /*css for navbar start*/
-nav li a
-{
+nav li a{
 	color: #fff;
 }
-.navbar
-{
+.navbar{
 	background-color: #7456c6;
 }
-.nav-link:hover
-{
+.nav-link:hover{
 	color: #000;
 }
 
-.dropdown-menu li a:hover
-{
+.dropdown-menu li a:hover{
 	color: #7456c6;
 }
 
@@ -29,73 +24,53 @@ nav li a
 
 /*css for main section start*/
 
-.about-intro-div h1
-{
+.about-intro-div h1{
 	border-bottom: rgb(255,255,255) 1px solid;
 	border-bottom-width: 2px;
 }
 
-.explore-button
-{
+.explore-button{
 	background-color: #f8f9fa;
 }
-.explore-button a
-{
+.explore-button a{
 	color: #7456c6;
 }
-.explore-button:hover
-{
+.explore-button:hover{
 	background-color: #7456c6; 
 }
-.explore-button:hover a
-{
+.explore-button:hover a{
 	color: white;
 }
 
 /* css start for skill section */
 
-.skill-section .container .row div>p
-{
+.skill-section .container .row div>p{
 	color: #7456c6;
 }
 /* css end for skill section*/
 
-/* css start for connect me section*/
-.reach-out-to-me div .row ul li a i,img
-{
-	height: 60px;
-	padding-top: 20px;
-	font-size: 30px;
-	color: #000;
-}
-.reach-out-to-me div .row ul li a i:hover
-{
+.reach-out-to-me div .row ul li a i:hover{
 	color: #7456c6;
 }
 
-@media (max-width: 576px)
-{
-	.reach-out-to-me div .row ul li a i
-	{
+@media (max-width: 576px){
+	.reach-out-to-me div .row ul li a i{
 		color: #000;
 	}
 }
 /* css for connect me section end here */
 
 /* css for footer section */
-.footer
-{
+.footer{
 	background-color: #f8f9fa;
 }
-.footer div
-{
+.footer div{
 	color: #000;
 	opacity: 0.6;
 }
 /* css end for footer section */
 /* css for top button start */
-.top-button
-{
+.top-button{
   	background-color: #7456c6;
   	color: #fff; 
 }

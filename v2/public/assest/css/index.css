@@ -1,89 +1,78 @@
+/*
+	Developer : Pankaj Kumar
+*/
+
 /*font for intro*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /*font for table */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 /*css start*/
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 3%;
+}
 
-body
-{
+body{
 	overflow-x: scroll;
 }
-.section-heading
-{
+.section-heading{
 	height: 50px;
 	font-size: 35px;
 	font-weight: 500;
 }
 /*css for navbar start*/
-.navbar
-{
+.navbar{
 	position: fixed;
-	z-index: 10000;
+	z-index: 1000;
 	width: 100%;
 	top: 0px;
 }
 .navbar-toggler:focus{
 	outline: none;
 }
-.navbar-light .navbar-nav .nav-link
-{
-	margin-top: 6px;
+.navbar-light .navbar-nav .nav-link{
+	margin-top: 9px;
 	color: white;
 }
-nav li a
-{
+nav li a{
 	font-weight: 700;
 }
-.nav-link
-{
+.nav-link{
 	font-size: 17px;
 }
-.dropdown-menu li
-{
+.dropdown-menu li{
 	width: 180px;
 	margin: 5px;
 }
-.dropdown-item
-{
+.dropdown-item{
 	font-size: 18px;
 	font-weight: 500;
 }
-.dropdown-menu li a:hover
-{
+.dropdown-menu li a:hover{
 	font-weight: 800;
 }
 /* css for media query of navbar section*/
-
-@media(max-width: 992px) and (min-width: 767px)
-{
-	nav .container
-	{
-		margin: 0px;
-		padding: 0px;
+/* here navbar are not correct for 1200px */
+@media(max-width: 1200px){
+	.nav-link{
+		font-size:14px;
 	}
-	.nav-link
-	{
+}
+
+@media(max-width: 992px) and (min-width: 767px){
+	.nav-link{
 		font-size: 15px;
 	}
 }
 
-@media(max-width: 767px)
-{
-	nav .container
-	{
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	.nav-link
-	{
+@media(max-width: 767px){
+	.nav-link{
 		font-size: 14px;
 	}
 }
-@media(max-width: 576px)
-{
-	.nav .nav-item
-	{
+@media(max-width: 576px){
+	.nav .nav-item{
 		padding: 5px;
 		font-size: 12px;
 	}
@@ -99,8 +88,7 @@ nav li a
 /*css end for navbar*/
 
 /*css for main section start*/
-.about
-{
+.about{
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,1)),url("../Images/background_image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -113,8 +101,7 @@ nav li a
 .about-div .row{
 	margin-top: 30px;
 }
-.about-div .row .col-sm
-{
+.about-div .row .col-sm{
 	min-height: 650px;
 	padding-top: 95px;
 	margin-right: 0px;
@@ -123,53 +110,43 @@ nav li a
 	animation-iteration-count: 1;
 	animation-timing-function: ease;
 }
-@keyframes about-translate
-{
-	from
-	{
+@keyframes about-translate{
+	from{
 		margin-top: 100px;
 	}
-	to
-	{
+	to{
 		margin-top: 0px;
 	}
 }
-.about-intro-div
-{
+.about-intro-div{
 	margin-top: 5%;
 }
-.about-intro-div h1
-{
+.about-intro-div h1{
 	border-bottom: rgb(255,255,255) 1px solid;
 	border-bottom-width: 2px;
 	width: 100px;
 }
-.row div img
-{	
+.row div img{
 	height: 360px;
 	width: 360px;
 	padding: 15px;
 	margin: 15px;
 	border-radius: 48%;
 }
-.intro
-{
+.intro{
 	padding: 5px;
 	font-size: 25px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
 }
-.explore-button a
-{
+.explore-button a{
 	text-decoration: none;
 	font-size: 20px;
 }
 
 /*css for media query for main section*/
-@media(max-width: 992px) and (min-width: 767px)
-{
-	.row div img
-	{
+@media(max-width: 992px) and (min-width: 767px){
+	.row div img{
 		height: 280px;
 		width: 280px;
 		padding: 15px;
@@ -178,18 +155,15 @@ nav li a
 	}
 }
 
-@media(max-width: 768px)
-{
+@media(max-width: 768px){
 	.about-div{
 		min-height: 850px;
 	}
-	.about-div .row .col-sm
-	{
+	.about-div .row .col-sm{
 		padding-top: 10px;
 		min-height: 400px;
 	}
-	.row div img
-	{	
+	.row div img{	
 		height: 280px;
 		width: 280px;
 		padding: 0;
@@ -199,20 +173,16 @@ nav li a
 		border-radius: 48%;
 
 	}
-	.intro
-	{
+	.intro{
 		font-size: 22px;
 	}
 }
-@media(max-width: 576px)
-{
-	.about-div .row .col-sm
-	{
+@media(max-width: 576px){
+	.about-div .row .col-sm{
 		padding-top: 10px;
 		min-height: 250px;
 	}
-	.row div img
-	{
+	.row div img{
 		height: 260px;
 		width: 250px;
 		padding: 15px;
@@ -220,20 +190,17 @@ nav li a
 		border-radius: 48%;
 		margin-left: 22%;
 	}
-	nav .container
-	{
+	nav .container{
 		margin-left: 0px;
 		margin-right: 0px;
 	}
-	.intro
-	{
+	.intro{
 		font-size: 18px;
 	}
 }
 
 @media(max-width: 400px){
-	.row div img
-	{
+	.row div img{
 		margin-left: 15%;
 	}
 }
@@ -242,22 +209,18 @@ nav li a
 
 /* css start for skill section */
 
-.skill-section
-{
-	padding-top: 58px;
+.skill-section{
+	padding: 70px;
 	min-height: 200px;
 }
-.skill-section .container h1
-{
+.skill-section .container h1{
 	padding-bottom: 15px;
 }
-.skill-section .container .row div>p
-{
+.skill-section .container .row div>p{
 	font-size: 20px;
 	font-weight: 900;
 }
-.skill-section .container .row ul li
-{
+.skill-section .container .row ul li{
 	margin-left: -50px;
 	list-style-type: none;
 	font-size: 19px;
@@ -268,77 +231,53 @@ nav li a
 
 
 /* css for experience section start*/
-.experience_section
-{
-	padding-top: 70px;
+.experience_section{
+	background-color: rgb(185, 206, 204);
+	padding: 70px;
 	min-height: 100px;
 	font-size: 17px;
 }
-.table2 thead{
+.experience-data-table thead{
 	font-size: 18px; 	
 }
-.table2 tbody
-{
+.experience-data-table tbody{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 }
 
-.table2 tbody tr td:nth-child(2){
-	min-width: 60%;
-}
-.table2	tbody tr td:nth-child(2) div{
-	display: flex;
+.experience-data-table tbody tr td:nth-child(1){
+	width: 40px;
 }
 .company_logo{
 	width: 60px;
 	height: 60px;
-	padding-top: 0px;
+	margin-right:10px;
 }
-.table2	tbody tr td:nth-child(2) div p{
-	width: 83%;
-	padding: 3px;
-	height: 25px;
+.experience-detail div{
+	font-weight: bolder;
+}
+.position-in-company {
 	font-weight: bold;
-}
-.table2 tbody tr td:nth-child(2) div span{
-	width: 50px;
-}
-
-.table2 tbody tr td:nth-child(2) div span i{
-	margin-top: 5px;
-	font-size: 20px;
-
-}
-.table2 tbody tr:hover td:nth-child(2) div span i{
-	font-size: 28px;
+	font-size: 13px;
+	background-color: #99ffd6;
 }
 
-
-@media (max-width: 767px)
-{
+@media (max-width: 767px){
 	.experience_section{
 		min-height: 100px;
 	}
-	.comapny_logo{
+	.company_logo{
 		display: none;
 	}
-	.duration,.starting{
+	.starting{
 		display: none;
 	}
-	.table2 tbody tr td:nth-child(2) div p{
-		font-weight: bold;
-		font-size: 15px;
-	}
-	.table2 tbody tr td:nth-child(3),:nth-child(4){
-		font-size: 15px;
-	}
-	
 }
 /* css for experience section end*/
 
 /* css start for project section*/
 .project-section {
-	padding-top: 70px;
+	padding: 70px;
 	min-height: 400px;
 }
 
@@ -362,7 +301,9 @@ nav li a
 	margin-top: 5px;
 	font-size: 20px;
 }
-
+.tech-stack-div :nth-child(1){
+	font-weight: bold;
+}
 .table1 tbody tr:hover a i {
 	font-size: 28px;
 }
@@ -372,6 +313,14 @@ nav li a
 	font-size: 15px;
 }
 
+.badge{
+	font-size: 14px;
+}
+.mobile-view-tech-stack-div{
+	display: none !important;
+}
+
+
 .table1 tr td:nth-child(1) {
 	font-size: 15px;
 }
@@ -380,7 +329,12 @@ nav li a
 	.project-section {
 		min-height: 550px;
 	}
-
+	.mobile-view-tech-stack-div{
+		display: block !important;
+	}
+	.mobile-view-tech-stack-div .badge{
+		font-size: 13px;
+	}
 	/* description column create problem in mobile and tab view so I remove it for that device only */
 	.description {
 		display: none;
@@ -389,11 +343,12 @@ nav li a
 
 /* css end for project section */
 
-/* css start for connect me section*/
+/* css start for reach out to me section*/
 
 .reach-out-to-me{
-	min-height: 180px;
-	padding-top: 25px;
+	background-color: rgb(168, 185, 183);
+	padding: 70px;
+	min-height: 160px;
 }
 .reach-out-to-me-inner-div{
 	padding-top: 10px;
@@ -441,15 +396,13 @@ nav li a
 	}
 }
 
-/* css for connect me section end here */
+/* css for reach out to me section end here */
 
 /* css for footer section */
-.footer
-{
+.footer{
 	height: 50px;
 }
-.footer div
-{
+.footer div{
 	top: 50%;
 	font-size: 14px;
 	position: relative;
@@ -457,8 +410,7 @@ nav li a
 }
 /* css end for footer section */
 /* css for top button start */
-.top-button
-{
+.top-button{
   	display: none; 
   	position: fixed;
   	bottom: 3%; 
@@ -470,12 +422,15 @@ nav li a
   	/*max-height: 50px;*/
 }
 /* css end for top button */
-/* css to just debug some thing*/
 
+/* css for education start */
+.education-section{
+	padding: 70px;
+	min-height: 100px;
+}
+.pills{
+	display: flex;
+	justify-content: space-around;
+}
 
-
-/* css used during debuging and fixing issues */
-/* css end for debuging */
-/* issue not fixed yet */
-/* for very small device max-width: 300px ; last section that is connect with me 
-is not responsive */
+/* css for education end */
