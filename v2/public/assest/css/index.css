@@ -21,6 +21,12 @@ body{
 	font-size: 35px;
 	font-weight: 500;
 }
+@media(max-width: 575px) {
+	.section-heading {
+		font-size: 30px;
+	}
+}
+
 /*css for navbar start*/
 .navbar{
 	position: fixed;
@@ -53,7 +59,6 @@ nav li a{
 	font-weight: 800;
 }
 /* css for media query of navbar section*/
-/* here navbar are not correct for 1200px */
 @media(max-width: 1200px){
 	.nav-link{
 		font-size:14px;
@@ -226,7 +231,11 @@ nav li a{
 	font-size: 19px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
+@media (max-width: 576px){
+	.skill-section{
+		padding: 30px;
+	}
+}
 /* css end for skill section*/
 
 
@@ -271,6 +280,18 @@ nav li a{
 	}
 	.starting{
 		display: none;
+	}
+}
+
+@media(max-width: 576px){
+	.experience_section{
+		padding: 30px;
+	}
+	.experience-data-table thead{
+		font-size: 13px;	
+	}
+	.experience-data-table tr td:nth-child(1), .experience-data-table tr th:nth-child(1){
+		width: 5%;
 	}
 }
 /* css for experience section end*/
@@ -338,6 +359,11 @@ nav li a{
 	/* description column create problem in mobile and tab view so I remove it for that device only */
 	.description {
 		display: none;
+	}
+}
+@media (max-width: 575px) {
+	.project-section {
+		padding: 30px;
 	}
 }
 
@@ -408,14 +434,10 @@ nav li a{
 	}
 	.reach-out-to-me-inner-div ul li{
 		display: inline;
-		margin-right: auto;
 		margin-left: auto;
 	}
 	.reach-out-to-me-inner-div ul li a i{
 		font-size: 28px;
-	}
-	.reach-out-to-me-inner-div ul li{
-		margin-right: 28px;
 	}
 }
 
@@ -442,6 +464,5 @@ nav li a{
   	border-radius: 19%;
   	font-size: 25px;
   	width: 45px;
-  	/*max-height: 50px;*/
 }
 /* css end for top button */
