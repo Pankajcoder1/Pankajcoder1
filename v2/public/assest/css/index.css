@@ -88,6 +88,9 @@ nav li a{
 	.navbar-nav .nav-item .nav-link{
 		font-size: 12px;
 	}
+	.navbar .container .nav .nav-item:nth-child(5){
+		display: none;
+	}
 }
 /* css for media query of navbar section end here*/
 /*css end for navbar*/
