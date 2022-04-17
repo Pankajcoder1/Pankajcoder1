@@ -20,7 +20,17 @@ function generateRandomColor() {
 		"#64bfa4",
 		"#cf9fa9",
 		"#d6fffa",
-		"#99ffd6"
+		"#99ffd6",
+		"#A7FFEB",
+		"#FBBC04",
+		"#E6C9A8",
+		"#E8EAED",
+		"#F28B82",
+		"#fff475",
+		"#ccff90",
+		"#a7ffeb",
+		"#fdcfe8",
+		"#d7aefb"
 	];
 	var randome_index = Math.floor(Math.random() * color_collection.length);
 	return color_collection[randome_index];
