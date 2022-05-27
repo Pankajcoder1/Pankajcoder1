@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Pankaj Kumar</h1>
 <h3 align="center">Software Developer | Competitive Programmer | YouTuber</h3>
-<h3 align="center">Upcoming ASDE @Publicis Sapient</h3>
+<h3 align="center">ASDE @Publicis Sapient</h3>
 
 <p align="center">
     <image src="v2/public/assest/GIF/SDE.gif" width="35%" height="30%">
