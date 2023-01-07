@@ -30,7 +30,7 @@
     <a href="https://www.leetcode.com/pankajkumarmath1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/leetcode.svg" alt="pankajkumarmath1" height="30" width="40" /></a>
     <a href="https://www.hackerearth.com/@pankaj1289" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerearth.svg" alt="@pankaj1289" height="30" width="40" /></a>
     <a href="https://auth.geeksforgeeks.org/user/panku_coder1" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/geeksforgeeks.svg" alt="panku_coder1" height="30" width="40" /></a>
-    <a href="https://discord.gg/pankajcoder1#0402" target="blank">
+    <a href="https://discord.gg/GMSxHE2fgk" target="blank">
         <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" alt="pankajcoder1#0402" height="30" width="40" />
     </a>
     <a href="https://www.youtube.com/channel/UCSVfA_mo9u3_eglngWNpCWg" target="blank">
